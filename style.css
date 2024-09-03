@@ -23,6 +23,8 @@ header {
 h1 {
     display: inline-block;
     margin-bottom: 20px;
+    font-family: "Lexend", system-ui;
+    font-optical-sizing: auto;
 }
 
 .container2 {
@@ -41,7 +43,7 @@ h1 {
 }
 
 #Task {
-    background-color: rgb(11, 122, 214);
+    background-color: rgb(40, 162, 190);
     color: white;
     width: 70px;
     height: 30px;
@@ -59,12 +61,14 @@ h1 {
     margin-top: 20px;
 }
 
-#Editiorial, #Newsletter, #Recruiting {
-    display: inline-block;
+#Editiorial,
+#Newsletter,
+#Recruiting {
+display: inline-block;
 }
 
 #Editiorial {
-    background-color: rgb(11, 122, 214);
+    background-color: rgb(40, 162, 190);
     color: white;
     width: 70px;
     height: 30px;
@@ -73,7 +77,7 @@ h1 {
 }
 
 #Editiorial2 {
-    background-color: rgb(11, 122, 214);
+    background-color: rgb(40, 162, 190);
     color: white;
     width: 70px;
     height: 30px;
@@ -83,6 +87,8 @@ h1 {
 
 #T {
     margin-top: 23px;
+    font-family: "Lexend", system-ui;
+    font-optical-sizing: auto;
 }
 
 #Mobile {
@@ -97,13 +103,13 @@ h1 {
     border-radius: 10px;
     margin-top: 20px;
     display: inline-block;
-    }
+}
 
-    #John {
-        display: inline-block;
-    }
+#John {
+    display: inline-block;
+}
 
-    #Recruiting2 {
+#Recruiting2 {
     background-color: rgb(18, 201, 158);
     color: white;
     width: 70px;
@@ -111,18 +117,81 @@ h1 {
     border-radius: 10px;
     margin-top: 20px;
     display: inline-block;
-    }
+}
 
-    #summit, #summit2 {
-        display: inline-block;
-        margin-top: 20px;
-    }
+#summit,
+#summit2 {
+    display: inline-block;
+    margin-top: 10px;
+}
 
-    #summit2 {
-        background-color: orange;
-        color: white;
-        width: 70px;
-        height: 30px;
-        border-radius: 10px;
-    }
+#summit2 {
+    background-color: orange;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#s {
+    margin-top: 30px;
+}
+
+#z {
+    padding: 10px;
+    display: inline-block;
+}
+
+#Mob {
+    background-color: rgb(238, 144, 161);
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#sx {
+    background-color: rgb(238, 144, 161);
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#Recr {
+    background-color: rgb(151, 151, 15);
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#g {
+    padding: 10px;
+    display: inline-block;
+}
+
+#w {
+    display: inline-block;
+}
+
+#Rc {
+    display: inline-block;
+    background-color: rgb(40, 162, 190);
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.d {
+    font-family: "Lexend", system-ui;
+    font-optical-sizing: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 
