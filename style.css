@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(244, 238, 239);
+}
+
+header {
+    background-color: white;
+}
+
+.container {
+    width: 1500px;
+    margin: auto;
+}
+
+#logo {
+    display: inline-block;
+}
+
+h1 {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.container2 {
+    width: 1500px;
+    height: 80px;
+    margin: 70px 0 0 0;
+    background-color: white;
+}
+
+.container3 {
+    width: 1500px;
+    height: 1030px;
+    margin: 5px 0 0 0;
+    padding: 50px 0 0 50px;
+    background-color: white;
+}
+
+#Task {
+    background-color: rgb(11, 122, 214);
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#Section {
+    background-color: white;
+    color: grey;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#Editiorial, #Newsletter, #Recruiting {
+    display: inline-block;
+}
+
+#Editiorial {
+    background-color: rgb(11, 122, 214);
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#Editiorial2 {
+    background-color: rgb(11, 122, 214);
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#T {
+    margin-top: 23px;
+}
+
+#Mobile {
+    display: inline-block;
+}
+
+#Mobile2 {
+    background-color: rgb(123, 63, 183);
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    }
+
+    #John {
+        display: inline-block;
+    }
+
+    #Recruiting2 {
+    background-color: rgb(18, 201, 158);
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    }
+
+    #summit, #summit2 {
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    #summit2 {
+        background-color: orange;
+        color: white;
+        width: 70px;
+        height: 30px;
+        border-radius: 10px;
+    }
+
