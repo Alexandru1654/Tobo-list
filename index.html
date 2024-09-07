@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Toboolist</title>
         <link rel="stylesheet" href="style.css">
-
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
@@ -16,67 +15,119 @@
 
     <body>
         <header>
-            <img src="img/Logo.png" alt="" id="Logo">
-
+            <!-- Logo e titolo centrati -->
+            <img src="img/Logo.png" alt="Logo" id="logo">
             <h1>Toboolist</h1>
         </header>
 
         <div class="container">
-
-            <div class="container2">
-                <input type="button" value="Add task" id="Task">
-                <input type="button" value="Add Section" id="Section">
+            <!-- Contenitore per i bottoni -->
+            <div class="box">
+                <span class="button" id="task">Add task</span>
+                <span class="button" id="section">Add Section</span>
             </div>
 
-            <div class="container3">
-                <main>
-                    <h2 class="d">New Task</h2>
+            <hr>
 
-                    <h2 id="Newsletter">Quarterly Newsletter</h2>
-                    <input type="button" value="Editiorial" id="Editiorial">
+            <!-- Sezione principale -->
+            <main>
 
-                    <div class="d">
-                        <h2 id="T">Today</h2>
-                    </div>
+                <h2 class="d">
+                    &#11206
+                    New Task
+                </h2>
+                <span class="icon">
+                    &check;
+                </span>
+                <h2 id="newsletter">Quarterly Newsletter</h2>
+                <span class="badge" id="editorial">Editorial</span>
 
-                    <h2 id="Recruiting">Recruiting blog post</h2>
-                    <input type="button" value="Editiorial" id="Editiorial2">
+                <!-- Sezione "Today" -->
 
-                    <div>
-                        <h2 id="Mobile">Mobile app luaunch</h2>
-                        <input type="button" value="Q1 Goals" id="Mobile2">
-                    </div>
+                <div class="d">
+                    <h2>
+                        &#11206
+                        Today
+                    </h2>
+                </div>
 
-                    <h2 id="John">Interview John H.</h2>
-                    <input type="button" value="Recruiting" id="Recruiting2">
+                <span class="icon">
+                    &check;
+                </span>
+                <h2 id="recruiting">Recruiting blog post</h2>
+                <span class="badge" id="editorial2">Editorial</span>
 
-                    <div>
-                        <h2 id="summit">Summit update to mobile storefronts.</h2>
-                        <input type="button" value="Mobile" id="summit2">
-                    </div>
+                <!-- Sezione "Mobile app launch" -->
+                <div>
+                    <span class="icon">
+                        &check;
+                    </span>
 
-                    <h2 class="d">Upcoming</h2>
-                    <h2 id="q">Schedule meeting with Alex</h2>
+                    <h2 id="mobile">Mobile app launch</h2>
+                    <span class="badge" id="mobile2">Q1 Goals</span>
+                </div>
 
-                    <div>
-                        <h2 id="z">Homepage refresh</h2>
-                        <input type="button" value="Website" id="Mob">
-                    </div>
+                <div>
+                    <span class="cross">
+                        &cross;
+                    </span>
 
-                    <div>
-                        <h2 id="g">Onboard new Sales team members</h2>
-                        <input type="button" value="Sales" id="Recr">
-                    </div>
+                    <h2 id="interview">Interview John H.</h2>
+                    <span class="badge" id="recruiting2">Recruiting</span>
+                </div>
 
-                    <div>
-                        <h2 id="w">Review editorial calendar</h2>
-                        <input type="button" value="Editiorial" id="Rc">
-                    </div>
+                <!-- Sezione "Summit update" -->
+                <div>
+                    <span class="icon">
+                        &check;
+                    </span>
 
-                </main>
+                    <h2 id="summit">Summit update to mobile storefronts.</h2>
+                    <span class="badge" id="summit2">Mobile</span>
+                </div>
 
+                <div>
+                    <h2 class="d">
+                        &#11206
+                        Upcoming
+                    </h2>
 
-            </div>
+                    <h2 id="meeting">
+                        <span class="cross">
+                            &cross;
+                        </span>
+                        Schedule meeting with Alex
+                    </h2>
+                </div>
+
+                <!-- Sezione "Homepage refresh" -->
+                <div>
+                    <span class="icon">
+                        &check;
+                    </span>
+                    <h2 id="homepage-refresh">Homepage refresh</h2>
+                    <span class="badge" id="website">Website</span>
+                </div>
+
+                <!-- Sezione "Onboard new Sales team members" -->
+                <div>
+                    <span class="icon">
+                        &check;
+                    </span>
+                    <h2 id="onboard-sales">Onboard new Sales team members</h2>
+                    <span class="badge" id="sales">Sales</span>
+                </div>
+
+                <!-- Sezione "Review editorial calendar" -->
+                <div>
+                    <span class="icon">
+                        &check;
+                    </span>
+                    <h2 id="editorial-review">Review editorial calendar</h2>
+                    <span class="badge" id="editorial3">Editorial</span>
+                </div>
+
+            </main>
         </div>
     </body>
 

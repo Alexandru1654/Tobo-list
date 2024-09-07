@@ -1,197 +1,131 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
 body {
     background-color: rgb(244, 238, 239);
 }
 
+/* Stile per l'intestazione */
 header {
     background-color: white;
+    padding: 20px;
 }
 
-.container {
-    width: 1500px;
-    margin: auto;
-}
-
+/* Logo e titolo centrati verticalmente */
 #logo {
     display: inline-block;
+    height: 50px;
+    vertical-align: middle;
 }
 
+/*Titolo principale*/
 h1 {
     display: inline-block;
-    margin-bottom: 20px;
+    vertical-align: middle;
     font-family: "Lexend", system-ui;
-    font-optical-sizing: auto;
-}
-
-.container2 {
-    width: 1500px;
-    height: 80px;
-    margin: 70px 0 0 0;
-    background-color: white;
-}
-
-.container3 {
-    width: 1500px;
-    height: 1030px;
-    margin: 5px 0 0 0;
-    padding: 50px 0 0 50px;
-    background-color: white;
-}
-
-#Task {
-    background-color: rgb(40, 162, 190);
-    color: white;
-    width: 70px;
-    height: 30px;
-    border-radius: 10px;
-    margin-top: 20px;
-    margin-left: 50px;
-}
-
-#Section {
-    background-color: white;
-    color: grey;
-    width: 70px;
-    height: 30px;
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
-#Editiorial,
-#Newsletter,
-#Recruiting {
-display: inline-block;
-}
-
-#Editiorial {
-    background-color: rgb(40, 162, 190);
-    color: white;
-    width: 70px;
-    height: 30px;
-    border-radius: 10px;
-    display: inline-block;
-}
-
-#Editiorial2 {
-    background-color: rgb(40, 162, 190);
-    color: white;
-    width: 70px;
-    height: 30px;
-    border-radius: 10px;
-    display: inline-block;
-}
-
-#T {
-    margin-top: 23px;
-    font-family: "Lexend", system-ui;
-    font-optical-sizing: auto;
-}
-
-#Mobile {
-    display: inline-block;
-}
-
-#Mobile2 {
-    background-color: rgb(123, 63, 183);
-    color: white;
-    width: 70px;
-    height: 30px;
-    border-radius: 10px;
-    margin-top: 20px;
-    display: inline-block;
-}
-
-#John {
-    display: inline-block;
-}
-
-#Recruiting2 {
-    background-color: rgb(18, 201, 158);
-    color: white;
-    width: 70px;
-    height: 30px;
-    border-radius: 10px;
-    margin-top: 20px;
-    display: inline-block;
-}
-
-#summit,
-#summit2 {
-    display: inline-block;
-    margin-top: 10px;
-}
-
-#summit2 {
-    background-color: orange;
-    color: white;
-    width: 70px;
-    height: 30px;
-    border-radius: 10px;
-}
-
-#s {
-    margin-top: 30px;
-}
-
-#z {
-    padding: 10px;
-    display: inline-block;
-}
-
-#Mob {
-    background-color: rgb(238, 144, 161);
-    color: white;
-    width: 70px;
-    height: 30px;
-    border-radius: 10px;
-    display: inline-block;
-}
-
-#sx {
-    background-color: rgb(238, 144, 161);
-    color: white;
-    width: 70px;
-    height: 30px;
-    border-radius: 10px;
-    display: inline-block;
-}
-
-#Recr {
-    background-color: rgb(151, 151, 15);
-    color: white;
-    width: 70px;
-    height: 30px;
-    border-radius: 10px;
-    display: inline-block;
-}
-
-#g {
-    padding: 10px;
-    display: inline-block;
-}
-
-#w {
-    display: inline-block;
-}
-
-#Rc {
-    display: inline-block;
-    background-color: rgb(40, 162, 190);
-    color: white;
-    width: 70px;
-    height: 30px;
-    border-radius: 10px;
 }
 
 .d {
-    font-family: "Lexend", system-ui;
-    font-optical-sizing: auto;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    font-family: "Lexend", sans-serif;
 }
 
+/* Contenitore principale */
+.container {
+    width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenitore per i bottoni */
+.box {
+    margin-bottom: 20px;
+}
+
+/* Stile per i bottoni */
+.button {
+    background-color: rgb(40, 162, 190);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Bottone "Add Section" con colore diverso */
+.button#section {
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+}
+
+/* Stile per gli header h2 */
+h2 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+/* Stile per i badge */
+.badge {
+    background-color: rgb(40, 162, 190);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 0.9em;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#editorial-review,
+#onboard-sales,
+#homepage-refresh,
+#summit,
+#interview,
+#mobile,
+#recruiting,
+#newsletter {
+    display: inline-block;
+}
+
+/* Badge con colore specifico per "Q1 Goals" */
+#mobile2 {
+    background-color: rgb(123, 63, 183);
+}
+
+/* Badge con colore specifico per "Recruiting" */
+#recruiting2 {
+    background-color: rgb(18, 201, 158);
+}
+
+/* Badge con colore specifico per "Mobile" */
+#summit2, #sales {
+    background-color: orange;
+}
+
+/* Badge con colore specifico per "Website" */
+#website {
+    background-color: rgb(242, 103, 126);
+}
+
+/*icon*/
+.icon {
+    border: 1px solid;
+    border-radius: 10px;
+    color: green;
+    margin-right: 10px;
+}
+
+/*cross*/
+.cross {
+    border: 1px solid;
+    border-radius: 12px;
+    color: red;
+    margin-right: 10px;
+}
 
